@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Code Python</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <style>
+        nav{
+            z-index: 5;
+        }
+        .container{
+            margin-top: 40px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+        h5{
+            font-size: 25px;
+        }
+        a{
+           text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky" style="background-color: #000000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../image/logo.png" alt="" width="30" height="24"> <span class="text-light">E_Code Learnings</span>
+              </a>
+             
+             
+          <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          </div>
+        </div>
+      </nav>
+      </nav>
+<br>
+      <div class="container"> 
+        <div class="">
+            <div class="col-lg-12">
+                <div class="panel-body">
+                    <h4 class="text-info text-center text-capitalize">Static variables and methods</h4>
+                    <!-- certificate upload code goes here -->
+        
+                                <!-- certificate upload code end here -->
+                                    <!-- content -->
+                                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Static variable:</span></p><p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:6pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">When we declare a variable inside a class but outside any method, it is called as class or static variable. Class or static variable can be referred through a class but not directly through an instance.</span></p><p><span id="docs-internal-guid-a1645c0a-7fff-5b36-dad6-bf461c946adc"></span></p><p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:6pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Static variables are quite distinct from and does not conflict with any other member variable with the same name. Example to&nbsp; demonstrate the use of class or static variable ?</span></p><p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:6pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Code:</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13.5pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:648px;"><img src="https://lh3.googleusercontent.com/oZb7ur_0Orx9KbQzUsSUMYPACjzXftMZPKcDUXbcSao6AIFgIT4o40wZFgz5PUwbMfFOcD4CA0uNYOWA3RmQvR89yT8WNSidT9oDPxbF7FbWI9bUvvPexT__9yzwo4a9fkNHNZyW" width="624" height="648" style="margin-left:0px;margin-top:0px;"></span></span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Output:</span></p><p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:6pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span id="docs-internal-guid-d6931505-7fff-b66f-f3e1-db09444bda31"></span></span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13.5pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:296px;"><img src="https://lh3.googleusercontent.com/IPG9ayW861xXLHCeZH-U6XVFuOMkJ1IWfe_gIeZhkthW3ivrSsKe0D5hHfNtqgMS1pGd6Wl3MajmTaUqkGIRX1EU6lu0XwT24SNzK_Lk35OxfAmoj921aRNRaZTtupCJ7w__vQut" width="624" height="296" style="margin-left:0px;margin-top:0px;"></span></span></p>                                <!-- end of content -->
+                                            <hr>
+                                            <br> 
+                         <div class="navigate" style="display: flex;justify-content: space-between;">
+                             <button type="button" class="btn btn-info"><a href="./3.html" style="color:white">
+                                 << Previous </a> </button>
+                                 <button type="button" class="btn btn-dark"><a href="../index.html" style="color:white">
+                                     << Home >> </a> </button>
+                             <button type="button" class="btn btn-info"><a href="./5.html" style="color:white; ">Next>></a></button>
+                       
+                     </div> <br> <br>
+                     </div>
+                                        </div>
+                    <hr>
+        </div>

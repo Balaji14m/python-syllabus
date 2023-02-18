@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Code Python</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <style>
+        nav{
+            z-index: 5;
+        }
+        .container{
+            margin-top: 40px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+        h5{
+            font-size: 25px;
+        }
+        a{
+           text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky" style="background-color: #000000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../image/logo.png" alt="" width="30" height="24"> <span class="text-light">E_Code Learnings</span>
+              </a>
+             
+             
+          <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          </div>
+        </div>
+      </nav>
+      </nav>
+<br>
+      <div class="container"> 
+        <div class="">
+            <div class="col-lg-12">
+                <div class="panel-body">
+                    <h4 class="text-info text-center text-capitalize">Understanding modules</h4>
+                    <!-- certificate upload code goes here -->
+        
+                                <!-- certificate upload code end here -->
+                                    <!-- content -->
+                                            <span id="docs-internal-guid-4f038bbb-7fff-4bf4-4339-2b4896230691"><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;Modules:</span></p><p dir="ltr" style="line-height: 1.83273; text-align: justify; margin-top: 12pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span style="background-color: transparent; color: rgb(34, 34, 34); font-size: 12pt; white-space: pre-wrap;">When we are coding on the Python interpreter and quit it ;enter it again, the function and variable that we have defined before are lost.When we want to write the longer program we write the code by using the script. When the&nbsp; program gets longer, we may split it into several files for easier maintenance. Also sometimes we want to use a function that is already written in several programs without copying its definition into each program.</span><span id="docs-internal-guid-38947c62-7fff-d01f-bb8d-def8c3db5f9f"></span></p><p dir="ltr" style="line-height:1.8327272727272728;text-align: justify;background-color:#ffffff;margin-top:12pt;margin-bottom:0pt;padding:0pt 0pt 12pt 0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">To implement such a thing python allows to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a Module; definitions of the module can be imported into other modules or into the main module.</span></p><p dir="ltr" style="line-height:1.8327272727272728;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 12pt 0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Module is the file containing definition and statement. We can define the operation in the file and save with .py and with the help of import statement we can use it in another file.</span></p><p dir="ltr" style="line-height:1.8327272727272728;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 12pt 0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">For eg:</span></p><p dir="ltr" style="line-height:1.8327272727272728;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 12pt 0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">1.Create the module file where add the operation of addition in function:</span></p><p dir="ltr" style="line-height:1.8327272727272728;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 12pt 0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:462px;height:224px;"><img src="https://lh3.googleusercontent.com/uAIXKrgLBGPdZXy2uEreyWXVZfEpBYIXNu-d7f6L90AZsLF3n2jEvYUr0pIqs0tlwiM6HCioPvVdmGHlce2Re9jhaEfYSIxl-xys4YZ-MGCGgEcMK7uF4rQJVi0wRYBQcvcytQl1" width="462" height="224" style="margin-left:0px;margin-top:0px;"></span></span></p><p dir="ltr" style="line-height:1.8327272727272728;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 12pt 0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2.Save the file with add.py and run the file</span></p><p dir="ltr" style="line-height: 1.83273; text-align: justify; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span style="font-size: 12pt; font-family: Arial; color: rgb(34, 34, 34); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:262px;"><img src="https://lh3.googleusercontent.com/f0L2bUWUIYuhOnD-W6SkMYtX8mkflqQe9Q0oIG_g9nQ7D18rZWHiHcgfEQIg2KOMli1A_vSU2mG9d7z_6hdxl82beIPAyVFvPHBI_WukB93km77BNexvWlRc3056InwaNEZm1aXL" width="624" height="262" style="margin-left:0px;margin-top:0px;"></span></span></p><p dir="ltr" style="line-height: 1.83273; text-align: justify; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span style="font-size: 12pt; font-family: Arial; color: rgb(34, 34, 34); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">3.</span><span style="background-color: transparent; color: rgb(34, 34, 34); font-size: 12pt; white-space: pre-wrap;">Import the module with the import statement and print the addition.</span></p></span><span id="docs-internal-guid-e2be2ac4-7fff-e5c5-4f1d-faf0af5b064a"><p dir="ltr" style="line-height: 1.83273; text-align: justify; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; color: rgb(34, 34, 34); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:219px;"><img src="https://lh3.googleusercontent.com/-K-jXiYvVcU9RgZIPENB_RTkj-bLHLhMNgTjOl6nVxVDPdnxFlh9sOTgx1Owg1xhxgwe6UJDupBBAVn2MZtOy_Fjg6Hdhj0iKmJFgat0DofCTJ049BoVI4zCA7I9xZELbH-Inly3" width="624" height="219" style="margin-left:0px;margin-top:0px;"></span></span></p><div><span style="font-size: 12pt; color: rgb(34, 34, 34); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:219px;"><br></span></span></div></span>                                <!-- end of content -->
+                           
+                                            <hr>
+                                            <br> 
+                         <div class="navigate" style="display: flex;justify-content: space-between;">
+                             <button type="button" class="btn btn-info"><a href="../module7/7.html" style="color:white">
+                                 << Previous </a> </button>
+                                 <button type="button" class="btn btn-dark"><a href="../index.html" style="color:white">
+                                     << Home >> </a> </button>
+                             <button type="button" class="btn btn-info"><a href="./2.html" style="color:white; ">Next>></a></button>
+                       
+                     </div> <br> <br>
+                     </div>
+                                        </div>
+                    <hr>
+        </div>

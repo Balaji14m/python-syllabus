@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Code Python</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <style>
+        nav{
+            z-index: 5;
+        }
+        .container{
+            margin-top: 40px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+        h5{
+            font-size: 25px;
+        }
+        a{
+           text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky" style="background-color: #000000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../image/logo.png" alt="" width="30" height="24"> <span class="text-light">E_Code Learnings</span>
+              </a>
+             
+             
+          <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          </div>
+        </div>
+      </nav>
+      </nav>
+<br>
+      <div class="container"> 
+        <div class="">
+            <div class="col-lg-12">
+                <div class="panel-body">
+                    <h4 class="text-info text-center text-capitalize">Identity Operator</h4>
+                    <!-- certificate upload code goes here -->
+        
+                                <!-- certificate upload code end here -->
+                                    <!-- content -->
+                                            <h2 dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:18pt;margin-bottom:6pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Identity Operator (Deep Equality)</span></h2><ul style="margin-top:0;margin-bottom:0;"><li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Tomorrow,sans-serif;color:#333333;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">is - checks if the value is equal by memory allocation reference</span></p></li><li dir="ltr" style="list-style-type:disc;font-size:12pt;font-family:Tomorrow,sans-serif;color:#333333;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">not is - checks if the value is unequal by memory allocation reference</span></p></li></ul><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Example 1:</span></p><div dir="ltr" style="margin-left:0pt;" align="left"><table style="border:none;border-collapse:collapse;"><colgroup><col width="598"></colgroup><tbody><tr style="height:108.75pt"><td style="border-left:solid #000000 0.99777pt;border-right:solid #000000 0.99777pt;border-bottom:solid #000000 0.99777pt;border-top:solid #000000 0.99777pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">series1&nbsp; =&nbsp; [�a�,�b�,�c�]</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">series2 = list(�abc�)</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">if series1 == series2:</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;&nbsp;&nbsp;&nbsp;print(�Equal by value�)</span></p><br><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">if series1 is series2 :</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;&nbsp;print(�Equal by memory�)</span></p></td></tr></tbody></table></div><p><b style="font-weight:normal;" id="docs-internal-guid-a1eb7889-7fff-85f9-7d42-ceb66a90a6fc"><br></b></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Example 2:</span></p><p></p><div dir="ltr" style="margin-left:0pt;" align="left"><table style="border:none;border-collapse:collapse;"><colgroup><col width="598"></colgroup><tbody><tr style="height:108.75pt"><td style="border-left:solid #000000 0.99777pt;border-right:solid #000000 0.99777pt;border-bottom:solid #000000 0.99777pt;border-top:solid #000000 0.99777pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">str1&nbsp; =&nbsp; �itv�</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">str2&nbsp; =&nbsp; �itv�</span></p><br><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">if str1 is str2&nbsp; :</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;&nbsp;&nbsp;&nbsp;print(�Allocated same memory in string pool�)</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">else:</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:'Courier New';color:#333333;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;&nbsp;&nbsp;print(�Two different memories allocated �)</span></p></td></tr></tbody></table></div><p><div class="center"></div></div></div></p>                                <!-- end of content -->
+                           
+                                            <div class="navigate" style="display: flex;justify-content: space-between;">
+                                                <button type="button" class="btn btn-info"><a href="./4.html" style="color:white">
+                                                    << Previous </a> </button>
+                                                    <button type="button" class="btn btn-dark"><a href="../index.html" style="color:white">
+                                                        << Home >> </a> </button>
+                                                <button type="button" class="btn btn-info"><a href="./6.html" style="color:white; ">Next>></a></button>
+                                          
+                                        </div> <br> <br>
+                                        </div>
+                    <hr>
+        </div>

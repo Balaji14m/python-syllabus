@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Code Python</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <style>
+        nav{
+            z-index: 5;
+        }
+        .container{
+            margin-top: 40px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+        h5{
+            font-size: 25px;
+        }
+        a{
+           text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky" style="background-color: #000000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../image/logo.png" alt="" width="30" height="24"> <span class="text-light">E_Code Learnings</span>
+              </a>
+             
+             
+          <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          </div>
+        </div>
+      </nav>
+      </nav>
+<br>
+      <div class="container"> 
+        <div class="">
+            <div class="col-lg-12">
+                <div class="panel-body">
+                    <h4 class="text-info text-center text-capitalize">Variable Scope - Global vs Local</h4>
+                    <!-- certificate upload code goes here -->
+        
+                                <!-- certificate upload code end here -->
+                                    <!-- content -->
+                                            <p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;Global vs Local Variables</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">A variable�s scope tells us where within the program it's visible. A variable may have local or global scope.</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Local Scope- A variable that's declared inside a function features a local scope. In other words, it's local thereto function.</span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 12pt; font-family: Tomorrow, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><b>Eg:</b></span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 11pt; font-family: Tomorrow, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><span id="docs-internal-guid-04fa4cdc-7fff-02ed-ee72-b045bbff9219" style=""><span style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;"><span style="border: none; display: inline-block; overflow: hidden; width: 624px; height: 212px;"><img src="https://lh6.googleusercontent.com/Dbouj5aj-rc3rZuBfSJwWD9bOYMEYI5h2g5PydHj5-K2YgtdKp1JfQACWnI8Ur6AnCzr2Q5yP_IX4-8l8ibnqJMiT2XNFgy0urfwYnOJWT35ZTsMOQPtbbGTsqjuMNgFJJpTudxP" width="624" height="212" style="margin-left:0px;margin-top:0px;"><b>Output:</b></span></span></span></span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><img src="https://lh4.googleusercontent.com/DIDYM8VzQbuV7ENvVmXbyNO4kjpakSt4DeeVHyyPNoCsA6Fph6CtTX5iuCEEllQeR6OiJY3hx6prOZqw3a8AskVjTuhPRSNkMW4wu85tA5xakT8hNCCQ5u1fyhqYEArGzF8FXCjt" width="624" height="47" style="background-color: transparent; color: rgb(0, 0, 0); font-size: 11pt; white-space: pre-wrap; margin-left: 0px; margin-top: 0px;"></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If we try to print the local variable outside the function it gives undefined variable error as shown below. Thus lifetime of the local variable remains only for the function body or for that scope.</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b style="font-weight:normal;" id="docs-internal-guid-09cf8a7f-7fff-2018-23ec-9735553003a9"><br></b></p><p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:2pt solid #000000;display:inline-block;overflow:hidden;width:505px;height:297px;"><img src="https://lh5.googleusercontent.com/FI5PneAvr5rFhFvdqUxIb4D0DIHZqHRHPwt4k6xtgWz331OVMkHVAtwqbFODwYlaK2FlehcMye61HyhhQnEL_d08Tn5lJqXPL1nNktG9-3g-j63XlU-lMJ7M7sEG_zSy0aMrgyQw=s0" width="1313" height="739.3594245826056" style="margin-left:-256.7083333333333px;margin-top:-29.582009080588236px;"></span></span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b style="font-weight:normal;"><br></b></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Output:</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"></p><p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:2pt solid #000000;display:inline-block;overflow:hidden;width:563px;height:229px;"><img src="https://lh3.googleusercontent.com/vTxzBYfO-zj2c3ajnJeScJUuxiZS74Nw9MS81PUYloVsGz8MF6TruqpRppmcc1Bbh9e1_Quz21rF6g1vIZr9kdWvUPI1_vHHPhYLpV81BAAUPXFQDyfvsCRG65sZTg1Z1ltQ467s=s0" width="1027.2280701754385" height="574.1903990856309" style="margin-left:-42.80116959064327px;margin-top:0px;"></span></span></p><div><span style="text-align: justify; background-color: transparent; font-size: 12pt; color: rgb(0, 0, 0); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><br></span></div><div><span style="text-align: justify; background-color: transparent; font-size: 12pt; color: rgb(0, 0, 0); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><b>Global Scope</b>- on</span><span style="text-align: justify; font-size: 12pt; color: rgb(0, 0, 0); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">ce you declare a variable outside python function, or anything , it's global scope. It means it's visible everywhere within the program.</span><br></div><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="color: rgb(0, 0, 0); font-size: 14.6667px; text-align: start; white-space: pre-wrap;">Output:</span><br></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span id="docs-internal-guid-d448277e-7fff-0594-e27a-5c20ffcbd8ab"><span style="font-size: 12pt; color: rgb(34, 34, 34); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:193px;"><img src="https://lh3.googleusercontent.com/vqGIJOmZSzHJnAUG-ZADjF93Z1P6qFKstveYfbFu70aPGfzXXSRykRsAbdN7iXxXx7v5_TWnOF3pWurQkyRdLKRWNgxKeWwgvXAzzTIzs8asWYYMjv3JvUCRtgA8tam4lvP5YyNv" width="624" height="193" style="margin-left:0px;margin-top:0px;"></span></span></span><br></span></p><p dir="ltr" style="line-height:1.38;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 13pt 0pt;"><span style="font-size: 12pt; font-family: Tomorrow, sans-serif; color: rgb(34, 34, 34); background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><b>Output:</b></span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span id="docs-internal-guid-263f40e3-7fff-639d-74c0-11a2fbd8d78b"></span></span></p><p dir="ltr" style="line-height:1.38;text-align: justify;background-color:#ffffff;margin-top:0pt;margin-bottom:13pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#222222;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:63px;"><img src="https://lh3.googleusercontent.com/7z7SX_kTmlpTxsghn_mszFDAeZttR6ZakFvl2oSN37vHB-JWJ5svOToVXwo-XXGiG1GBgGpkknVMC2LXVdRVNTOdVd5vlQD-WYHxRRhlALgYYQRF8uEJMbFT4fFeM3s9GmW9AR03" width="624" height="63" style="margin-left:0px;margin-top:0px;"></span></span></p><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Variables that are defined inside a function body have an area scope, and people defined outside have a worldwide scope. meaning that local variables are defined within a function block and may only be accessed inside that function, while global variables are often obtained by all functions which may be in your script.</span></p><p><span id="docs-internal-guid-da8ec59c-7fff-12ad-13e4-199c86ba6355"><br></span></p><div dir="ltr" style="margin-left:0pt;" align="left"><table style="border:none;border-collapse:collapse;width:468pt;table-layout:fixed"><colgroup><col></colgroup><tbody><tr style="height:0pt"><td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.7999999999999998;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:12pt;font-family:Tomorrow,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:610px;height:308px;"><img src="https://lh3.googleusercontent.com/7azIhovaXIoOUgGzG_nUe0eGEhoj9NBzbrm0fi-QwagYYolNbrqq8Fv7Ryor5VC4ku9bToeHXwAdrMYZB7UbrPrXLvFTRXXdOxUj8LmZNTC8uWTgl-YlGMOqRT9LjwQDyIUXVI8L" width="610" height="308" style="margin-left:0px;margin-top:0px;"></span></span></p></td></tr></tbody></table></div><p><div class="center"></div></p>                                <!-- end of content -->
+                          
+                                            <hr>
+                                            <br> 
+                         <div class="navigate" style="display: flex;justify-content: space-between;">
+                             <button type="button" class="btn btn-info"><a href="./4.html" style="color:white">
+                                 << Previous </a> </button>
+                                 <button type="button" class="btn btn-dark"><a href="../index.html" style="color:white">
+                                     << Home >> </a> </button>
+                             <button type="button" class="btn btn-info"><a href="./6.html" style="color:white; ">Next>></a></button>
+                       
+                     </div> <br> <br>
+                     </div>
+                                        </div>
+                    <hr>
+        </div>
